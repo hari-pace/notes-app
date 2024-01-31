@@ -7,8 +7,9 @@ import 'package:mynotes/views/notes/notes_view.dart';
 import 'package:mynotes/views/register_view.dart';
 import 'package:mynotes/views/verify_email_view.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   runApp(MaterialApp(
     title: 'Flutter Demo',
     theme: ThemeData(primarySwatch: Colors.blue),
